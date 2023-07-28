@@ -1,0 +1,303 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Financedepartment.FinancialDocuments.W-4",
+      "Group": "Finance department",
+      "Category": "Financial Documents",
+      "Name": "W-4",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Financedepartment.FinancialDocuments.W-4.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "Financedepartment.FinancialDocuments.W-9",
+      "Group": "Finance department",
+      "Category": "Financial Documents",
+      "Name": "W-9",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Financedepartment.FinancialDocuments.W-9.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "Accountdepartment.VendorRelated.Invoices",
+      "Group": "Account department",
+      "Category": "Vendor Related",
+      "Name": "Invoices",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Accountdepartment.VendorRelated.Invoices.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "Accountdepartment.VendorRelated.Recipets",
+      "Group": "Account department",
+      "Category": "Vendor Related",
+      "Name": "Receipets",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Accountdepartment.VendorRelated.Recipets.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "Forms.FinanaceForms.FinancialReports",
+      "Group": "Forms",
+      "Category": "Finanace Forms",
+      "Name": "Financial Reports",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Forms.FinanaceForms.FinancialReports.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Forms.FinanaceForms.FinancialReports.Form-type",
+          "FieldName": "Form-type",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Documnets.Other.Certificateoffilling",
+      "Group": "Documnets",
+      "Category": "Other",
+      "Name": "Certificate of filling",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Documnets.Other.Certificateoffilling.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Documnets.Other.Certificateoffilling.field-number",
+          "FieldName": "file-number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "Documnets.Other.Certificateoffilling.dated",
+          "FieldName": "dated",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "Documnets.Other.Certificateoffilling.effective",
+          "FieldName": "effective",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Account department",
+      "Categories": [
+        "Vendor Related"
+      ]
+    },
+    {
+      "Name": "Finance department",
+      "Categories": [
+        "Financial Documents"
+      ]
+    },
+    {
+      "Name": "Forms",
+      "Categories": [
+        "Finanace Forms"
+      ]
+    },
+    {
+      "Name": "Documnets",
+      "Categories": [
+        "Other"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}
